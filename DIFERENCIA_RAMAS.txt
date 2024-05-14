@@ -1,0 +1,103 @@
+deleted file mode 100644
+index 6c0b863..0000000
+--- a/JLMExamenRecuGit/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/JLMExamenRecuGit/src/ProcesamientoTexto.java b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+index 43f0606..5651730 100644
+--- a/JLMExamenRecuGit/src/ProcesamientoTexto.java
++++ b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+@@ -9,12 +9,11 @@ public class ProcesamientoTexto {
+         String texto = scanner.nextLine();
+         scanner.close();
+     }
+-    public static String convertirAMayusculas(String texto) {
+:...skipping...
+diff --git a/JLMExamenRecuGit/.idea/vcs.xml b/JLMExamenRecuGit/.idea/vcs.xml
+deleted file mode 100644
+index 6c0b863..0000000
+--- a/JLMExamenRecuGit/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/JLMExamenRecuGit/src/ProcesamientoTexto.java b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+index 43f0606..5651730 100644
+--- a/JLMExamenRecuGit/src/ProcesamientoTexto.java
++++ b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+@@ -9,12 +9,11 @@ public class ProcesamientoTexto {
+         String texto = scanner.nextLine();
+         scanner.close();
+     }
+-    public static String convertirAMayusculas(String texto) {
+-        return texto.toUpperCase();
++    public static String convertirAMinusculas(String texto) {
+:...skipping...
+diff --git a/JLMExamenRecuGit/.idea/vcs.xml b/JLMExamenRecuGit/.idea/vcs.xml
+deleted file mode 100644
+index 6c0b863..0000000
+--- a/JLMExamenRecuGit/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/JLMExamenRecuGit/src/ProcesamientoTexto.java b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+index 43f0606..5651730 100644
+--- a/JLMExamenRecuGit/src/ProcesamientoTexto.java
++++ b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+@@ -9,12 +9,11 @@ public class ProcesamientoTexto {
+         String texto = scanner.nextLine();
+         scanner.close();
+     }
+-    public static String convertirAMayusculas(String texto) {
+-        return texto.toUpperCase();
++    public static String convertirAMinusculas(String texto) {
++        return texto.toLowerCase();
+     }
+:...skipping...
+diff --git a/JLMExamenRecuGit/.idea/vcs.xml b/JLMExamenRecuGit/.idea/vcs.xml
+deleted file mode 100644
+index 6c0b863..0000000
+--- a/JLMExamenRecuGit/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/JLMExamenRecuGit/src/ProcesamientoTexto.java b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+index 43f0606..5651730 100644
+--- a/JLMExamenRecuGit/src/ProcesamientoTexto.java
++++ b/JLMExamenRecuGit/src/ProcesamientoTexto.java
+@@ -9,12 +9,11 @@ public class ProcesamientoTexto {
+         String texto = scanner.nextLine();
+         scanner.close();
+     }
+-    public static String convertirAMayusculas(String texto) {
+-        return texto.toUpperCase();
++    public static String convertirAMinusculas(String texto) {
++        return texto.toLowerCase();
+     }
+
+-    public static String recortarEspacios(String texto) {
+:
