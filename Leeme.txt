@@ -1,0 +1,5 @@
+Vamos a trabajar sobre Strings con una clase propia, 
+crearemos Ramas para que cada miembro trabajae su parte 
+y luego las uniremos todas.
+
+
