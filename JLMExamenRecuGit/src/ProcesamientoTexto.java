@@ -9,4 +9,12 @@ public class ProcesamientoTexto {
         String texto = scanner.nextLine();
         scanner.close();
     }
+    public static String convertirAMayusculas(String texto) {
+        return texto.toUpperCase();
+    }
+
+    public static String recortarEspacios(String texto) {
+        return texto.trim();
+    }
 }
+
