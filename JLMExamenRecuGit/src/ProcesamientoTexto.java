@@ -9,6 +9,7 @@ public class ProcesamientoTexto {
         String texto = scanner.nextLine();
         scanner.close();
     }
+
     public static String convertirAMinusculas(String texto) {
         return texto.toLowerCase();
     }
@@ -17,3 +18,4 @@ public class ProcesamientoTexto {
         return new StringBuilder(texto).reverse().toString();
     }
 }
+
