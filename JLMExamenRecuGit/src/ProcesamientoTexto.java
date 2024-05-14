@@ -6,10 +6,16 @@ public class ProcesamientoTexto {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Por favor, ingresa un texto:");
-        String texto = scanner.nextLine();
+        StringBuilder texto = scanner.nextLine();
         scanner.close();
     }
+    public static String convertirAMayusculas(String texto) {
+        return texto.toUpperCase();
+    }
 
+    public static String recortarEspacios(String texto) {
+        return texto.trim();
+    }
     public static String convertirAMinusculas(String texto) {
         return texto.toLowerCase();
     }
@@ -18,4 +24,8 @@ public class ProcesamientoTexto {
         return new StringBuilder(texto).reverse().toString();
     }
 }
+
+
+
+
 
